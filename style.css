@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.6;
+    background-color: #d7d7d7;
+    color: #333;
+    padding: 20px;
+}
+
+.hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('campo2.png');
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            border-radius: 5%;
+              text-align: center;
+            color:white
+            
+            
+          
+        }
+
+header {
+    background-color: #ffffff;
+    color: #5abb4b;
+    padding: 20px 0;
+    text-align: center;
+    font-size: larger;
+}
+
+h1{
+    padding-top: 15%;
+    font-size: 300%;
+}
+
+
+h3{
+
+  font-size: 150%;
+  padding-top: 2%;
+}
+
+
+
+#Sobre{
+    text-align: center;
+    font-size: 150%;
+    padding-top: 4%;
+    padding-bottom: 3%;
+    
+}
+
+#container{
+
+    display: flex;
+    justify-content: center;
+}
+
+#canto1{
+
+    padding-left: 0%;
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('campo4.jpg');
+     background-repeat: no-repeat;
+      background-size: cover;
+   border-radius: 5%;
+   line-height: 300%;
+    color: #fff;
+    height: 700px;
+    width: 40%;
+    font-family: Bold;
+    object-fit: cover;
+   
+    
+     
+}
+
+#canto2{
+
+    
+    padding-left: 0%;
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('cidade.png');
+     background-repeat: no-repeat;
+      background-size: cover;
+   border-radius: 5%;
+   line-height: 300%;
+    color: #fff;
+    height: 700px;
+    width: 40%;
+    font-family: Bold;
+    object-fit: cover;
+}
+
+#Interdependencia{
+
+    text-align: center;
+    font-size: 1.6em;
+    
+   
+}
+
+
+#container1{
+    background-color: #a5bb9f;
+height: 450px;
+border-radius: 5%;
+line-height:2 ;
+font-family: Bold;
+}
+
+
+#container2{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    background-color: #d7d7d7;
+}
+
+#comoseconectam{
+
+    padding-top: 100px;
+    font-size: larger;
+    text-align: center;
+}
+
+#frutas2{
+
+    border-radius: 5%;
+    background-color: rgb(226, 221, 221);
+    background-size: 50%;
+    width: 50%;
+}
+
+#imgfruta{
+     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('frutas.png');
+     background-repeat: no-repeat;
+      background-size: cover;
+   border-radius: 5%;
+    color: #fff;
+    height: 500px;
+    width: 80%;
+    font-family: Bold;
+    object-fit: cover;
+    background-position: left;
+     
+    }
+
+    #title{
+        padding-top: 60px;
+        color: #68a05f;
+        font-size: 1.2em;
+      
+    }
+
+    #container3{
+
+        display: flex;
+        justify-content: center;
+        padding-top: 50px;
+        
+    }
+
+    #imgtec{
+
+          background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('teccampo.avif');
+     background-repeat: no-repeat;
+      background-size: cover;
+   border-radius: 5%;
+    color: #fff;
+    height: 500px;
+    width: 250%;
+    font-family: Bold;
+    object-fit: cover;
+   
+    }
+
+    #title2{
+  padding-top: 60px;
+        color: #68a05f;
+
+    }
+
+    #black{
+        color: rgb(44, 44, 44);
+    }
+
+
+    #tamanho{
+
+        font-size: 1.2em;
+    }
+
+
+    #imgturismo{
+
+         background: linear-gradient(rgba(0, 0, 0, 0.595), rgba(0, 0, 0, 0.419)), 
+              url('turismo.jpg');
+     background-repeat: no-repeat;
+      background-size: cover;
+   border-radius: 5%;
+    color: #fff;
+    height: 500px;
+    width: 100%;
+    font-family: Bold;
+    object-fit: cover;
+    background-position: left;
+    }
+
+
+
+
+#info{
+
+    padding-top: 30px;
+}
+
+#infotec{
+
+    font-size: 1.2em;
+}
+
+
+#container4{
+
+         background-color: #d3d3d3cb;
+         background-size: cover;
+         background-position: center center;
+         border-radius: 5%;
+         height: 500px;
+         width: 5000px;
+    
+
+}
+
+#problems{
+
+    text-align: center;
+    font-size: 2em;
+    padding-top: 60px;
+}
+
+#tittle5{
+    padding-bottom: 30px;
+    font-size: 80%;
+    color: #68a05f;
+}
+
+
+
+
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #5abb4b;
+    text-decoration: none;
+}
+
+main {
+    margin: 20px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
